@@ -32,6 +32,7 @@ def log_counter(name, *args):
     log_box.configure(state='disabled')
 
 
+ctk.set_appearance_mode('dark')
 root = ctk.CTk()
 root.geometry("800x300")
 root.title("1 lab")

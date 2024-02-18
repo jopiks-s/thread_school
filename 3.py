@@ -56,6 +56,7 @@ def sum_areas(*args):
     sum_area_var.set(sum_area)
 
 
+ctk.set_appearance_mode('dark')
 root = ctk.CTk()
 root.geometry("600x350")
 root.title("3 lab")

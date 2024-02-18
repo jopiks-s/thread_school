@@ -74,6 +74,7 @@ def calculate():
 
 
 if __name__ == '__main__':
+    ctk.set_appearance_mode('dark')
     root = ctk.CTk()
     root.geometry("600x350")
     root.title("4 lab")

@@ -46,6 +46,7 @@ def change_state(progress_bar, state_var: tk.IntVar):
             progress_bar.start()
         else:
             progress_bar.stop()
+
     return _inner
 
 

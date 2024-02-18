@@ -54,6 +54,7 @@ root.rowconfigure([0, 1, 3], weight=1)
 root.rowconfigure(2, weight=4)
 root.columnconfigure(list(range(4)), weight=1)
 
+sum_area_var = tk.DoubleVar(value=0)
 areas = []
 for i in range(4):
     area_var = tk.DoubleVar(value=0)
@@ -71,7 +72,6 @@ for i in range(4):
 ctk.CTkLabel(root, text='Thread 5', text_color='gray').grid(row=3, column=0, pady=(0, 20))
 ctk.CTkLabel(root, text='Total area: ').grid(row=3, column=1, pady=(0, 20))
 
-sum_area_var = tk.DoubleVar(value=0)
 ctk.CTkLabel(root, textvariable=sum_area_var, text_color='red').grid(row=3, column=2, columnspan=2, pady=(0, 20),
                                                                      sticky='w')
 

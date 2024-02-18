@@ -1,9 +1,9 @@
-import math
 import ctypes
+import math
 import multiprocessing
 import threading
-from multiprocessing import Value
 from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
+from multiprocessing import Value
 from random import randint
 from time import perf_counter
 
@@ -76,7 +76,7 @@ def calculate():
 if __name__ == '__main__':
     root = ctk.CTk()
     root.geometry("600x350")
-    root.title("3 lab")
+    root.title("4 lab")
     digits_only = root.register(digits_only)
     cpu_count = multiprocessing.cpu_count()
 
